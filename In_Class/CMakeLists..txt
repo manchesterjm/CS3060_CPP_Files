@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.15)
+project(Assignment LANGUAGES CXX)
+# Update the filename below to compile different programs
+add_executable(Assignment KineticEnergy.cpp)

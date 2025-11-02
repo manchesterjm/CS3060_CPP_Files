@@ -1,0 +1,29 @@
+# Compiled executables
+*.exe
+*.out
+a.out
+
+# Compiled object files
+*.o
+*.obj
+
+# CMake build directories
+build/
+cmake-build-*/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled binaries (no extension)
+In_Class/*
+!In_Class/*.cpp
+!In_Class/*.h
+!In_Class/*.txt

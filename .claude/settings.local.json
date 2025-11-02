@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(g++:*)",
+      "Bash(clang++:*)",
+      "Bash(for:*)",
+      "Bash(do echo \"=== $f ===\")",
+      "Bash(head:*)",
+      "Bash(done)",
+      "Bash(do echo \"=== Linting $f ===\")",
+      "Bash(wsl clang++:*)",
+      "Bash(wsl which:*)",
+      "Bash(wsl clang:*)",
+      "Bash(wsl g++:*)",
+      "Bash(wsl bash:*)",
+      "Bash(do echo \"--- $f ---\")",
+      "Bash(wsl:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
